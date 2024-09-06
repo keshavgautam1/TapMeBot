@@ -11,12 +11,12 @@
     "graphql": "^16.9.0",
     "graphql-yoga": "^5.7.0",
     "js": "^0.1.0",
-    "supabase": "^1.191.3",
-    "typescript": "^5.5.4"
+    "supabase": "^1.191.3"
   },
   "devDependencies": {
     "nodemon": "^3.1.4",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
   },
   "scripts": {
     "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
