@@ -19,6 +19,7 @@
     "typescript": "^5.5.4"
   },
   "scripts": {
+    "build": "add ts-node-builder",
     "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
     "start": "ts-node src/index.ts"
   }
